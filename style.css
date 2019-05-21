@@ -16,8 +16,8 @@ html,body{
 
 #left{
     display:flex-start;
-    width: 30%;
-    background-color:#212529;
+    width: 29%;
+    background-color:#25252e;
     color:#fff;
     height: 100%;
     overflow: auto;
@@ -45,7 +45,7 @@ html,body{
 #right{
     /* display:flex-end; */
     float:right;
-    width: 40%;
+    width: 25%;
     background: blue;
     height: 100%;
     overflow: auto;
@@ -57,10 +57,11 @@ html,body{
     display:flex;
     overflow: hidden;
     height: 100%;
-    margin-left:145px;
+    margin-left:140px;
     /* flex-direction: row; */
    
 }
+
 
 #cont ::-webkit-scrollbar { 
     display: none; 
@@ -68,13 +69,11 @@ html,body{
 
 
 #column{
-    width:40%;
+    width:60%;
 }
 
 
  #middle-bottom{
-
-    /* color:#fff; */
     color:#6272a4;
     background-color:#212529;
     height:50%;
@@ -88,9 +87,72 @@ html,body{
 
 /* border color 44475a */
 
+.popular{
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    text-align: center;
+    color:#66d9ef;
+    margin-top:2rem;
+    margin-bottom:-1.9rem;
+    /* margin-left:-.rem; */
 
+
+}
+.popOnJs {
+    border-left-style:outset;
+    padding-left:.70rem;
+    transition: 0.3s;
+    border-color:#44475a; 
+    font-family: 'Inconsolata', monospace;
+    margin-left:1rem;
+    margin-top:3rem;
+    padding-right:2rem;
+    
+  
+}
+.bor{
+    /* line-height: 1rem; */
+    font-size: 14px;
+}
+
+.bor:hover{
+    border-color:#50fa7b;
+    
+}
+.bor-posted{
+    color:#66d9ef;
+    line-height:.002rem;
+}
+
+.bor-score{
+    color:#6273a4;
+    margin-bottom:-.01rem;
+
+
+}
+
+a.bor-link{
+    color:#ff79c6;
+    text-decoration: underline;
+    
+    
+}
+a.bor-link:hover{
+    color:#66d9ef;
+    transition: 0.3s;
+}
+a.top-link{
+    color:#ff79c6;
+    text-decoration:none;
+}
+a.top-link:hover{
+    text-decoration: none;
+    color:#ff79c6;
+}
 
 /* social  */
+
+
 
 
  
@@ -99,7 +161,7 @@ html,body{
    padding: 0;
    background-color:#44475a;
    height:100%;
-   width:145px;
+   width:140px;
    position: fixed;
    text-decoration: none;
    
@@ -188,6 +250,7 @@ li.nav-playground a{
 li.nav-help a{
     color:#e6db74;
 }
+
 /* font Awesome icons */
 .fa-wrench {
     padding:2px;

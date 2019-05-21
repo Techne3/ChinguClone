@@ -17,6 +17,6 @@ setInterval(time, 1000);
 
 // Set Month Day and Year with Moment.js
 
-var Now = moment().format("MMM Do YY");
+var Now = moment().format('ll');  
 var x = document.getElementById("months");
 x.innerHTML = Now;
