@@ -4,15 +4,6 @@ html,body{
     margin: 0;
 }
 
-/* columns */
-/* .left .middle .right{ */
-    /* box-sizing: border-box; */
-    /* overflow: auto;
-    height: 100%;
-    padding: .5rem;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;
-} */
 
 #left{
     display:flex-start;
@@ -29,10 +20,10 @@ html,body{
 
 #middle{
     
-   
+   color:white;
     width: 100%;
    position: relative;
-    background-color: green;
+    background-color: #25252e;
     height: 50%;
     overflow: auto;
     box-sizing: border-box;
@@ -84,7 +75,7 @@ html,body{
     flex-direction: column;
     
   } 
-
+/* LEFT Scroll  */
 /* border color 44475a */
 
 .popular{
@@ -148,7 +139,53 @@ a.top-link{
 a.top-link:hover{
     text-decoration: none;
     color:#ff79c6;
+    
 }
+
+
+/* popular on js Middle*/
+
+.jsHistory {
+    /* border-bottom:1px solid #44475a;
+    height:93%;
+    font-family: 'Inconsolata', monospace; */
+    /* position: fixed; */
+
+}
+.jsHistoryTitle {
+    font-size: 16px;
+    text-align: center;
+    margin-top:2rem;
+    margin-bottom:1.5rem;
+    color:#66d9ef;
+    margin-right:70px;
+    font-family: 'Inconsolata', monospace;
+}
+
+ul.History-list{
+    font-size:14px;
+    font-family: 'Inconsolata', monospace;
+    line-height: 3.2rem;
+
+}
+.stamp{
+    font-size: 14px;
+    float:right;
+    text-align: right;
+    color:#999;
+    margin-right:12px;
+    overflow: auto;
+    
+}
+
+.info-middle{
+    margin-left:-30px;
+    list-style: none;
+    font-family: 'Inconsolata', monospace;
+    color:#6374a4;
+    overflow: auto;
+}
+
 
 /* social  */
 
