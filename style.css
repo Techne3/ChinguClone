@@ -66,13 +66,15 @@ html,body{
 
  #middle-bottom{
     color:#6272a4;
-    background-color:#212529;
+    background-color:#282a36;
     height:50%;
     width:100%;
     box-sizing:border-box;
     overflow:auto;
     padding:.4rem;
     flex-direction: column;
+    border-top:1px solid white;
+    text-align: center;
     
   } 
 /* LEFT Scroll  */
@@ -141,9 +143,65 @@ a.top-link:hover{
     color:#ff79c6;
     
 }
+/* current times */
 
 
-/* popular on js Middle*/
+ 
+ /* .date  {
+    
+    font-size: 120px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -3px;
+    margin-top:6rem;
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}  */
+/* 
+#months{
+    font-size: 20px;
+    display: block;
+    margin-top:-50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: thin;
+    text-align: center;
+} */
+
+.clock {
+    font-family:Arial,sans-serif;
+    color:#bbb;
+    display:block;
+    text-align: center;
+    font-size: 120px;
+  }
+  #time {
+    display:inline-block;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top:6rem;
+    color:#6272a4;
+  }
+  #hour {
+    
+    justify-content: center;
+    display:inline-block;
+    text-align:center;
+    font-size:30px;
+    text-transform: uppercase;
+    color:#6272a4;
+  }
+
+  #date {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color:#6272a4;
+
+  }
+
+
+/* History on js Middle*/
 
 .jsHistory {
     /* border-bottom:1px solid #44475a;
