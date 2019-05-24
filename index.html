@@ -1,278 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link
-    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    rel="stylesheet"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="moment.js"></script>
-    <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+                integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+                crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="moment.js"></script>
+        <title>Document</title>
 </head>
+
 <body>
-    <div class="nav-wrap">
-        <div class="social-sidebar">
+        <div class="nav-wrap">
+                <div class="social-sidebar">
 
-        <ul class="sidebar">
-                
-                <li class="nav nav-settings"><a href="#" style="text-decoration:none;"><i class="fas fa-wrench"></i> SETTINGS</a></li>
-                <li class="nav nav-gists"><a href="#" style="text-decoration:none;"><i class="fas fa-code"></i> GISTS</a></li>
-                <li class="nav nav-stack"><a href="#" style="text-decoration:none;"><i class="fab fa-stack-overflow"></i> STACK OVERFLOW</a></li>
-                <li class="nav nav-trending"><a href="#" style="text-decoration:none;"><i class="fas fa-chart-line"></i> TRENDING</a></li>
-                <li class="nav nav-scratch"><a href="#" style="text-decoration:none;"><i class="fas fa-pencil-alt"></i> SCRATCH PAD</a></li>
-                <li class="nav nav-playground"><a href="#" style="text-decoration:none;"> <i class="far fa-lightbulb"></i> PLAYGROUND <i class="fas fa-lock"></i></a></li>
-                <li class="nav nav-help"><a href="#" style="text-decoration:none;"><i class="fas fa-question"></i> HELP/INTRO</a></li>
-        </ul>
+                        <ul class="sidebar">
 
-                <div class="logo">
-                    <img class="logos" src="imgs/logo.png">
+                                <li class="nav nav-settings"><a href="#" style="text-decoration:none;"><i
+                                class="fas fa-wrench"></i> SETTINGS</a></li>
+                                <li class="nav nav-gists"><a href="#" style="text-decoration:none;"><i
+                                 class="fas fa-code"></i> GISTS</a></li>
+                                <li class="nav nav-stack"><a href="#" style="text-decoration:none;"><i
+                                 class="fab fa-stack-overflow"></i> STACK OVERFLOW</a></li>
+                                <li class="nav nav-trending"><a href="#" style="text-decoration:none;"><i
+                                 class="fas fa-chart-line"></i> TRENDING</a></li>
+                                <li class="nav nav-scratch"><a href="#" style="text-decoration:none;"><i
+                                class="fas fa-pencil-alt"></i> SCRATCH PAD</a></li>
+                                <li class="nav nav-playground"><a href="#" style="text-decoration:none;"> <i
+                                class="far fa-lightbulb"></i> PLAYGROUND <i
+                                 class="fas fa-lock"></i></a></li>
+                                <li class="nav nav-help"><a href="#" style="text-decoration:none;"><i
+                                 class="fas fa-question"></i> HELP/INTRO</a></li>
+                        </ul>
 
-                </div>    
-       
-            <div class="social">
+                        <div class="logo">
+                                <img class="logos" src="imgs/logo.png">
+
+                        </div>
+
+        <div class="social">
                 <ul class="social-nav">
-                    <li class="soc facebook"><a href="#"> <span class="fab fa-facebook"></span></a></li>
+                        <li class="soc facebook"><a href="#"> <span class="fab fa-facebook"></span></a>
+                                        </li>
 
-                    <li class="soc linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="soc linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
 
-                    <li class="soc twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="soc twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
 
-                    <li class="soc reddit"><a href="#"><i class="fab fa-reddit"></i></a></li>
-                    
+                        <li class="soc reddit"><a href="#"><i class="fab fa-reddit"></i></a></li>
+
                 </ul>
 
 
-            </div>
+        </div>
+
+
+                </div>
+
+        </div>
+
+        <!-- left popular on R/javascript -->
+
+        <div id="cont">
+                <div id="left">
+                        <h3 class="popular"><i class="fab fa-reddit-alien" style="font-size:20px;"></i> POPULAR ON
+                                R/JAVASCRIPT</h3>
+                        <br>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">See how your visitors are really using your website.</p>
+
+                                <p class="bor-posted"><span style="color:#e6db74;">Try it for Free</span> </p>
+
+                                <!-- <p class="bor-score">Reddit Score:482</p> -->
+
+                                <p class="top-link"><a href="#" class="top-link"> Sponsored by Hotjar</a></p>
+                        </div>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">See how your visitors are really using your website</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/magenta_placement</span>
+                                </p>
+
+                                <p class="bor-score">Reddit Score:482</p>
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">Test Automation Analytics using Cube.js</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/ekduffy</span> </p>
+
+                                <p class="bor-score">Reddit Score:22</p>
+
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">WebGl Fluid Simulation</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/PaddiM8</span> </p>
+
+                                <p class="bor-score">Reddit Score:4</p>
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">Manipulation the DOM in larger projects in an organized way, how?</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/angelg__</span> </p>
+
+                                <p class="bor-score">Reddit Score:8</p>
+
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">How to Easily SHare Reusable Modules in Node.js- at Scale (Hackernoon)
+                                </p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/JSislife</span> </p>
+
+                                <p class="bor-score">Reddit Score:2</p>
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">New to coding and planning on making a 2d game </p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/u/Cs-Sunshyn3</span> </p>
+
+                                <p class="bor-score">Reddit Score:1</p>
+
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">Best way to clean up some javascript.</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/angleg__</span> </p>
+
+                                <p class="bor-score">Reddit Score:2</p>
+
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+                        <div class="bor popOnJs">
+                                <p class="bor">Cutting our webpack build times in half</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/Terrible_dev</span> </p>
+
+                                <p class="bor-score">Reddit Score:124</p>
+
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">React Hooks -Learn by building a Notes app</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/R0rshrk</span> </p>
+
+                                <p class="bor-score">Reddit Score:8</p>
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+                        <div class="bor popOnJs">
+                                <p class="bor">Python-like list/array operator in JavaScript</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/EvoNext</span> </p>
+
+                                <p class="bor-score">Reddit Score:82</p>
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+
+
+                        <div class="bor popOnJs">
+                                <p class="bor">Fetch vs Axios.js for making HTTP requests</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/renishb</span> </p>
+
+                                <p class="bor-score">Reddit Score:41</p>
+
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+                        <div class="bor popOnJs">
+                                <p class="bor">Javascript and Accessiblity: Accordions</p>
+
+                                <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/philnash</span> </p>
+
+                                <p class="bor-score">Reddit Score:9</p>
+                                <p class="bor-link"><a href="#" class="bor-link"> Link to Comments</a></p>
+                        </div>
+
+
+
+
+                </div>
+
+
+                <!-- History middle -->
+
+<div id="column">
+        <div id="middle">
+                <div class="jsHistory">
+                        <h4 class="jsHistoryTitle"><i class="far fa-clock" style="font-size:13px;"></i>
+                                                RELEVANT JAVASCRIPT HISTORY</h4>
+                        <ul class="History-list">
+                        <li class="info-middle">Javscript Time and Dates Formats Using
+                        Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago<spand></li>
+
+                        <li class="info-middle">Javscript Time and Dates Formats Using
+                        Moments.js JavaScript Library-You Tube<spand class="stamp"> 4inutes ago<spand>
+                        </li>
+
+                        <li class="info-middle">Javscript Time and Dates Formats UsingMoments.js JavaScript Library-You Tube<spand class="stamp"> 4inutes ago</spand></li>
+
+                         <li class="info-middle">Javscript Time and Dates Formats UsingMoments.js JavaScript Library-You Tube<spand class="stamp"> 4inutes ago</spand></li>
+
+                        <li class="info-middle">Javscript Time and Dates Formats Using
+                         Moments.js JavaScript Library-You Tube<spand class="stamp"> 4inutes ago
+                         </spand></li>
+
+                         <li class="info-middle">Javscript Time and Dates Formats Using
+                          Moments.js JavaScript Library-You Tube<spand class="stamp"> 4inutes ago
+                          </spand></li>
+
+                          <li class="info-middle">Javscript Time and Dates Formats Using
+                          Moments.js JavaScript Library-You Tube<spand class="stamp"> 4inutes ago</spand></li>
+                                        </ul>
+                                </div>
+                        </div>
+                 <div id="middle-bottom">
                 
+                  <div class="clock" id="time"></div>
+                  <div class="clock" id="hour"></div>
+                  <div class="clock" id="date"></div>
 
-        </div>
-
-    
-    
-    
-
-    </div>
-
-<!-- left popular on R/javascript -->
-
-    <div id="cont">
-            <div id="left">
-                    <h3 class="popular"><i class="fab fa-reddit-alien" style="font-size:20px;"></i> POPULAR ON R/JAVASCRIPT</h3>
-                    <br>
-
-                <div class="bor popOnJs">
-                    <p class="bor">See how your visitors are really using your website.</p>
-                    
-                    <p class="bor-posted"><span style="color:#e6db74;">Try it for Free</span> </p>
-                   
-                    <!-- <p class="bor-score">Reddit Score:482</p> -->
-                   
-                    <p class="top-link"><a href class="top-link"="#"> Sponsored by Hotjar</a></p>
+                        </div>
                 </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">See how your visitors are really using your website</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/magenta_placement</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:482</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">Test Automation Analytics using Cube.js</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/ekduffy</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:22</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">WebGl Fluid Simulation</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/PaddiM8</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:4</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">Manipulation the DOM in larger projects in an organized way, how?</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/angelg__</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:8</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">How to Easily SHare Reusable Modules in Node.js- at Scale (Hackernoon) </p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/JSislife</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:2</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">New to coding and planning on making a 2d game </p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/u/Cs-Sunshyn3</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:1</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">Best way to clean up some javascript.</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/angleg__</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:2</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-                <div class="bor popOnJs">
-                        <p class="bor">Cutting our webpack build times in half</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/Terrible_dev</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:124</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">React Hooks -Learn by building a Notes app</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/R0rshrk</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:8</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">Python-like list/array operator in JavaScript</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/EvoNext</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:82</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-                <div class="bor popOnJs">
-                        <p class="bor">Fetch vs Axios.js for making HTTP requests</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/renishb</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:41</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div> <div class="bor popOnJs">
-                        <p class="bor">Javascript and Accessiblity: Accordions</p>
-                        
-                        <p class="bor-posted">Posted by:<span style="color:#e6db74;">u/philnash</span> </p>
-                       
-                        <p class="bor-score">Reddit Score:9</p>
-                       
-                        <p class="bor-link"><a href class="bor-link"="#"> Link to Comments</a></p>
-                </div>
-
-
-
-       
-            </div>
-
-
-      <!-- History middle -->
-              
-    <div id="column">
-          <div id="middle">
-              <div class="jsHistory">
-             <h4 class="jsHistoryTitle"><i class="far fa-clock" style="font-size:13px;"></i> RELEVANT JAVASCRIPT HISTORY</h4>
-                <ul class="History-list">
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-                    
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-
-                    <li class="info-middle">Javscript Time and Dates Formats Using Moments.js JavaScript Library-You Tube<spand class="stamp"> 4 minutes ago</spand></li>
-                    
-
-
-
-
-                </ul>
-
-
-            </div>
-        </div>
-        <div id="middle-bottom">
-                <!-- <div class="clock" id="day"></div> -->
-                <div class="clock" id="time"></div>
-                <div class="clock" id="hour"></div>
-                <div class="clock" id="date"></div>
-
-
-               <!-- <p class="date"></p>
-               <span class="ampm"></span>
-
+        <div id="right">
+                <h3 class="github-issues"><i class="fab fa-github-alt"></i> GITHUB ISSUES HISTORY</h3>
                 <br>
-                <span id ="months"></span>
-                 -->
-              </div>
+                <p class="switch">switch to gitlab</p>
+          <div class="github-buttons">
+                <a href="#" class="item-issues">ISSUES</a>
+                        
+                
+                <a href="#"class="pull-request">PULL-REQUEST</a>
+
+                 
+          </div>
+                 <div class="bor popOnJs">
+
+                        <p class="github-repo">Reddit Score:124</p>
+
+                        <p class="github">Issue #13543</p>
+
+                        <p class="github-bottom">Css psuedo element not working for non Pro icons</p>
+
+                        
+                </div>
+
+                        
         </div>
-          <div id="right">
-              <h3><i class="fab fa-github-alt"></i> GITHUB ISSUES HISTORY</h3>
-              <br>
 
-          Vivamus diam enim, egestas dictum semper nec, sagittis et velit. Cras elementum suscipit sapien nec bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada, diam at ultricies congue, libero orci porttitor elit, eget consequat est urna vitae ipsum. Sed massa ipsum, consequat interdum euismod vitae, ultrices eu risus. Aliquam erat volutpat. Suspendisse sit amet hendrerit sapien. Duis eu sagittis turpis. Sed adipiscing, orci et venenatis vulputate, magna quam consectetur leo, vitae placerat metus ipsum at diam. Curabitur vitae nisl orci, scelerisque viverra magna. Maecenas orci turpis, sollicitudin non tincidunt nec, fringilla eu purus. Quisque risus magna, viverra pretium tempor non, vestibulum vel sapien. Etiam tempor auctor lacus eu euismod. Nunc sagittis ligula eget lorem tempor a consequat lectus fermentum. Nullam id dolor nisi. Etiam mollis condimentum ante, quis sollicitudin lacus egestas eu.
-        
-          Vivamus placerat, libero eu bibendum iaculis, leo arcu posuere justo, eget sagittis sem massa vel nibh. Nunc felis metus, sagittis vel euismod imperdiet, porttitor et urna. Mauris ultrices lectus sed est fermentum a semper nulla pharetra. Mauris mollis gravida arcu, nec tempor dolor varius sed. Aliquam blandit, orci vitae iaculis adipiscing, dui purus eleifend nibh, vitae iaculis augue felis vitae risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam faucibus laoreet commodo. Cras suscipit egestas placerat.
-            </div>
-        
 
-        </div>
+</div>
 
 
 
 
+ <script src="main.js"></script>
 
-
-   
-
-
-
-
-
-    <script src="main.js"></script>
-   
 </body>
+
 </html>
