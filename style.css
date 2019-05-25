@@ -9,7 +9,7 @@ body {
 #left {
     display: flex-start;
     width: 29%;
-    background-color: #25252e;
+    background-color: #282a36;
     color: #fff;
     height: 100%;
     overflow: auto;
@@ -43,8 +43,13 @@ body {
     box-sizing: border-box;
     padding: 0.4em;
     align-items: stretch;
-}
+    
 
+}
+.border-div{
+    border-bottom:1px solid #44475a;
+    height:10%
+}
 #cont {
     display: flex;
     overflow: hidden;
@@ -226,12 +231,8 @@ a.top-link:hover {
 
 /* History on js Middle*/
 
-.jsHistory {
-    /* border-bottom:1px solid #44475a;
-    height:93%;
-    font-family: 'Inconsolata', monospace; */
-    /* position: fixed; */
-
+.History-list{
+    display:block;
 }
 
 .jsHistoryTitle {
@@ -258,6 +259,8 @@ ul.History-list {
     color: #999;
     margin-right: 12px;
     overflow: auto;
+    
+
 
 }
 
@@ -492,11 +495,29 @@ img.logos:hover {
     align-items: center;
 }
 
-a.item-issues{
+.item-issues{
     color: #e6db74;
     display:inline-block;
     font-family:Arial, Helvetica, sans-serif;
     font-size:13px;
+    
+}
+a.item-issues:hover{
+    color:#e6db74;
+    text-decoration: none;
+}
+.caret{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.fa-caret-up{
+    color:#e6db74;
+    margin-top:-1rem;
+    margin-left:-8rem;
+   
 }
 
 
@@ -508,7 +529,12 @@ a.pull-request{
     display:inline-block;
 }
 
+a.pull-request:hover{
+    text-decoration: none;
+    color:#50fa7b;
+    transition: 0.3s;
 
+}
 
 
 .github-repo{
@@ -518,10 +544,34 @@ a.pull-request{
 
 .github{
     color: #e6db74;
+  
 }
 
 .github-bottom{
     color:#fff;
 }
 
+/* 
+.delete-top{
+   
+    
+} */
 
+.delete-bottom{
+ color:#ffb86c;
+ line-height:1;
+}
+.delete-middle{
+    line-height:1;
+
+}
+
+.fa-question-circle{
+    color:#ffb86c;
+}
+.fa-times-circle{
+    color:#ffb86c;
+}
+#date{
+    margin-bottom: 2rem;
+}
