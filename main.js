@@ -37,5 +37,3 @@ textDelete.addEventListener('click', function(){
 });
 
 // github pull request 
-
-var 
