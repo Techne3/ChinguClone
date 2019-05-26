@@ -437,19 +437,22 @@ li.nav-help a {
 
 /* logos */
 
-img.logos {
+.logos {
+    
     height: 45px;
     width: 110px;
     margin-top: 33px;
-    margin-left: 12px
+    margin-left: 12px;
+    display:inline-block;
         /* margin:.8rem; */
 }
 
 img.logos:hover {
-    -webkit-filter: opacity(.4);
-    filter: opacity(.4);
-
-
+    /* -webkit-filter: opacity(.4);
+    filter: opacity(.4); */
+    background:url("imgs/yellowLogo.png");
+    display: inline-block;
+    
 }
 
 /* Github Issues repo */
@@ -547,7 +550,7 @@ a#pull-request:hover{
 .pen {
     float: left;
     padding:5px;
-    margin-top:1rem;
+    margin-top:.7rem;
     height: 27px;
     width:27px;
    

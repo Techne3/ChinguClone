@@ -61,17 +61,48 @@ function myFunction() {
 	}
   }
 
+
+//   function myFunction() {
+// 	var v =document.querySelector("fab");
+// 	if (icon.classList.contains('fa-github-alt')) {
+// 		icon.classList.remove('fa-github-alt');
+// 		icon.classList.add('fab fa-gitlab');
+// 	  //   text.innerHTML = 'Hide';
+// 	  } else {
+// 		icon.classList.remove('fab fa-gitlab');
+// 		icon.classList.add('fa-github-alt');
+
+// 	}
+// };
 // switch to gitLab
 // document.getElementById("switch").onclick=function() {
 // 	document.getElementById("github-issues").innerHTML="GITLAB ISSUES HISTORY";
 // }
 
 
-function myFunction() {
-	var x = document.getElementById("github-issues");
-	if (x.innerHTML === "GITHUB ISSUES HISTORY") {
-	  x.innerHTML = "GITLAB ISSUES HISTORY";
-	} else {
-	  x.innerHTML = "GITHUB ISSUES HISTORY";
-	}
-  }
+// function myFunction() {
+// 	var x = document.getElementById("github-issues");
+// 	if (x.innerHTML === "GITHUB ISSUES HISTORY") {
+// 	  x.innerHTML = "GITLAB ISSUES HISTORY";
+// 	} else {
+// 	  x.innerHTML = "GITHUB ISSUES HISTORY";
+// 	}
+//   }
+
+
+// document.getElementById('switch').addEventListener('click', function() {
+// 	var icon = this.querySelector('i');
+// 	var text = this.querySelector('span');
+  
+// 	if (icon.classList.contains('fa-github-alt')) {
+// 	  icon.classList.remove('fa-github-alt');
+// 	  icon.classList.add('fab fa-gitlab');
+// 	//   text.innerHTML = 'Hide';
+// 	} else {
+// 	  icon.classList.remove('fab fa-gitlab');
+// 	  icon.classList.add('fa-github-alt');
+// 	//   text.innerHTML = 'Show';
+// 	}
+//   });
+  
+
