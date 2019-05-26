@@ -15,12 +15,12 @@ body {
     overflow: auto;
     box-sizing: border-box;
     padding: 0.4em;
+   
 }
 
 
 
 #middle {
-
     color: white;
     width: 100%;
     position: relative;
@@ -35,27 +35,27 @@ body {
 
 
 #right {
-    float: right;
     width: 27%;
     background-color: #282a36;
-    height: 100%;
-    overflow: auto;
-    box-sizing: border-box;
-    padding: 0.4em;
-    align-items: stretch;
-    
-
+    overflow: scroll;
+    height:70%;
 }
+
 .border-div{
+  
     border-bottom:1px solid #44475a;
-    height:10%
+   
+    
 }
 #cont {
     display: flex;
     overflow: hidden;
     height: 100%;
     margin-left: 140px;
-    /* flex-direction: row; */
+    background-color:#282a36;
+    
+
+   
 
 }
 
@@ -73,7 +73,6 @@ body {
 #middle-bottom {
     color: #6272a4;
     background-color: #282a36;
-    height: 50%;
     width: 100%;
     box-sizing: border-box;
     overflow: auto;
@@ -113,7 +112,7 @@ body {
 }
 
 .bor {
-    /* line-height: 1rem; */
+    line-height: .91;
     font-size: 14px;
 }
 
@@ -124,12 +123,13 @@ body {
 
 .bor-posted {
     color: #66d9ef;
-    line-height: .002rem;
+    /* line-height: .002rem; */
 }
 
 .bor-score {
     color: #6273a4;
-    margin-bottom: -.01rem;
+    /* margin-bottom: -.01rem; */
+    
 
 
 }
@@ -506,17 +506,21 @@ a.item-issues:hover{
     color:#e6db74;
     text-decoration: none;
 }
-.caret{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.fa-caret-up-issues-arrow{
+    /* display: flex;
+    justify-content:flex-start;
+    align-items: right; */
+    /* margin-left:-10px; */
 
 
 }
 .fa-caret-up{
     color:#e6db74;
-    margin-top:-1rem;
-    margin-left:-8rem;
+    /* justify-content: flex-start; */
+    /* margin-left:-3rem;
+    padding-right:20px; */
+    /* margin-top:-.8rem;
+    margin-left:3rem; */
    
 }
 
@@ -582,10 +586,21 @@ a.pull-request:hover{
     float: left;
     padding:5px;
     margin-top:1rem;
-    height: 25px;
-    width:23px;
-    /* display:inline-block; */
+    height: 27px;
+    width:27px;
+   
 }
+.carets{
+    
+    color:white;
+    
+}
+.caret-div{
+    display: flex;
+    /* justify-content: center; */
+    justify-items: space-between;
+}
+
 /* space under clock */
 #date{
     margin-bottom: 2rem;
