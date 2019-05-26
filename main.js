@@ -1,5 +1,3 @@
-// var span = document.querySelector('.date');
-// var pm = document.querySelector('.ampm');
 
 
 function time() {
@@ -16,7 +14,7 @@ function time() {
 
 	document.getElementById('time').innerHTML = '' + hours + ':' + minutes;
 	document.getElementById('hour').innerHTML = '' + ampm + '';
-	// document.getElementById('date').innerHTML = "" + tmonth[nmonth].toUpperCase() + " " + ndate + ", " + nyear + "";
+	
 }
 
 
@@ -72,23 +70,7 @@ function myFunction() {
 // 		icon.classList.remove('fab fa-gitlab');
 // 		icon.classList.add('fa-github-alt');
 
-// 	}
-// };
-// switch to gitLab
-// document.getElementById("switch").onclick=function() {
-// 	document.getElementById("github-issues").innerHTML="GITLAB ISSUES HISTORY";
-// }
-
-
-// function myFunction() {
-// 	var x = document.getElementById("github-issues");
-// 	if (x.innerHTML === "GITHUB ISSUES HISTORY") {
-// 	  x.innerHTML = "GITLAB ISSUES HISTORY";
-// 	} else {
-// 	  x.innerHTML = "GITHUB ISSUES HISTORY";
-// 	}
-//   }
-
+// 	
 
 // document.getElementById('switch').addEventListener('click', function() {
 // 	var icon = this.querySelector('i');

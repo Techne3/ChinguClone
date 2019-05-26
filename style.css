@@ -32,6 +32,7 @@ body {
     box-sizing: border-box;
     padding: 0.4em;
     flex-direction: column;
+    
 }
 
 
@@ -41,7 +42,7 @@ body {
     background-color: #282a36;
     overflow: scroll;
     height:70%;
-    s
+    
 }
 
 .border-div{
@@ -56,9 +57,6 @@ body {
     height: 100%;
     margin-left: 140px;
     background-color:#282a36;
-    
-
-   
 
 }
 
@@ -87,7 +85,7 @@ body {
 }
 
 /* LEFT Scroll  */
-/* border color 44475a */
+
 
 .popular {
     font-family: 'Inconsolata', monospace;
@@ -205,9 +203,10 @@ a.top-link:hover {
 
 /* History on js Middle*/
 
-.History-list{
+ul.History-list{
     display:block;
 }
+
 
 .jsHistoryTitle {
     font-size: 16px;
@@ -222,7 +221,7 @@ a.top-link:hover {
 ul.History-list {
     font-size: 14px;
     font-family: 'Inconsolata', monospace;
-    line-height: 3.2rem;
+  
 
 }
 li.info-middle:hover{
@@ -247,7 +246,8 @@ li.info-middle:hover{
     list-style: none;
     font-family: 'Inconsolata', monospace;
     color: #6374a4;
-    overflow: auto;
+    line-height:3.2;
+    
 }
 
 
@@ -273,9 +273,7 @@ ul.sidebar {
     margin-left: -45px;
     white-space: nowrap;
 
-
 }
-
 
 
 
@@ -447,15 +445,17 @@ li.nav-help a {
         /* margin:.8rem; */
 }
 
-img.logos:hover {
+.logos:hover {
+
     /* -webkit-filter: opacity(.4);
     filter: opacity(.4); */
     background:url("imgs/yellowLogo.png");
-    display: inline-block;
-    
+    /* display: inline-block; */
 }
 
 /* Github Issues repo */
+
+
 #switch{
     color:#6273a4;
    text-decoration: none;
@@ -488,8 +488,6 @@ a#item-issues:hover{
 }
 
 
-
-
 a#pull-request{
     color:#ff79c6;
     font-family:Arial, Helvetica, sans-serif;
@@ -520,11 +518,7 @@ a#pull-request:hover{
     color:#fff;
 }
 
-/* 
-.delete-top{
-   
-    
-} */
+/* delete Top */
 
 .delete-bottom{
  color:#ffb86c;
@@ -532,7 +526,6 @@ a#pull-request:hover{
 }
 .delete-middle{
     line-height:1;
-
 }
 
 .fa-question-circle{
@@ -542,7 +535,7 @@ a#pull-request:hover{
     color:#ffb86c;
 }
 
-
+/* Arrow under Issues and Pull-request */
 .wrap{
     display:block;
     margin-left:-3rem;
@@ -567,10 +560,10 @@ a#pull-request:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* justify-content: space-around; */
-    
+    justify-content: space-around;
     
 }
+
 .one{
    margin-left:4rem;
     margin-top:-1rem;
