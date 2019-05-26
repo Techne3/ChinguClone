@@ -3,6 +3,7 @@ body {
     height: 100%;
     overflow: hidden;
     margin: 0;
+    
 }
 
 
@@ -15,6 +16,7 @@ body {
     overflow: auto;
     box-sizing: border-box;
     padding: 0.4em;
+    font-weight: bold;
    
 }
 
@@ -39,6 +41,7 @@ body {
     background-color: #282a36;
     overflow: scroll;
     height:70%;
+    s
 }
 
 .border-div{
@@ -93,7 +96,7 @@ body {
     color: #66d9ef;
     margin-top: 2rem;
     margin-bottom: -1.9rem;
-    /* margin-left:-.rem; */
+   
 
 
 }
@@ -104,6 +107,7 @@ body {
     transition: 0.3s;
     border-color: #44475a;
     font-family: 'Inconsolata', monospace;
+    /* margin:3rem, 2rem,0rem, 1rem; */
     margin-left: 1rem;
     margin-top: 3rem;
     padding-right: 2rem;
@@ -123,15 +127,12 @@ body {
 
 .bor-posted {
     color: #66d9ef;
-    /* line-height: .002rem; */
+    
 }
 
 .bor-score {
     color: #6273a4;
-    /* margin-bottom: -.01rem; */
-    
-
-
+   
 }
 
 a.bor-link {
@@ -157,41 +158,14 @@ a.top-link:hover {
 
 }
 
-.github-issues{
+#github-issues{
     font-family: 'Inconsolata', monospace;
     font-size: 16px;
     text-align: center;
     color: #66d9ef;
     margin-top: 2rem;
     margin-bottom: -1.9rem;
-
-
 }
-
-/* current times */
-
-
-
-/* .date  {
-    
-    font-size: 120px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -3px;
-    margin-top:6rem;
-    display:block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-}  */
-/* 
-#months{
-    font-size: 20px;
-    display: block;
-    margin-top:-50px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: thin;
-    text-align: center;
-} */
 
 .clock {
     font-family: Arial, sans-serif;
@@ -251,6 +225,12 @@ ul.History-list {
     line-height: 3.2rem;
 
 }
+li.info-middle:hover{
+    color:#e6db74;
+    transition: .3s;
+
+}
+
 
 .stamp {
     font-size: 14px;
@@ -259,8 +239,6 @@ ul.History-list {
     color: #999;
     margin-right: 12px;
     overflow: auto;
-    
-
 
 }
 
@@ -276,9 +254,6 @@ ul.History-list {
 /* social  */
 
 
-
-
-
 .social-sidebar {
     margin: 0;
     padding: 0;
@@ -287,9 +262,6 @@ ul.History-list {
     width: 140px;
     position: fixed;
     text-decoration: none;
-
-    /* overflow:auto; */
-
 }
 
 ul.sidebar {
@@ -481,13 +453,18 @@ img.logos:hover {
 }
 
 /* Github Issues repo */
-.switch{
+#switch{
     color:#6273a4;
-    text-align: center;
+   text-decoration: none;
     font-size: 12px;
     margin-top:.71rem;
-
+    text-align:center;
+    display:block;
     font-family: 'Inconsolata', monospace;
+}
+#switch:hover{
+    color:#e6db74;
+    transition: 0.3s;
 }
 .github-buttons{
     display: flex;
@@ -495,37 +472,22 @@ img.logos:hover {
     align-items: center;
 }
 
-.item-issues{
+#item-issues{
     color: #e6db74;
     display:inline-block;
     font-family:Arial, Helvetica, sans-serif;
     font-size:13px;
     
 }
-a.item-issues:hover{
+a#item-issues:hover{
     color:#e6db74;
     text-decoration: none;
 }
-.fa-caret-up-issues-arrow{
-    /* display: flex;
-    justify-content:flex-start;
-    align-items: right; */
-    /* margin-left:-10px; */
 
 
-}
-.fa-caret-up{
-    color:#e6db74;
-    /* justify-content: flex-start; */
-    /* margin-left:-3rem;
-    padding-right:20px; */
-    /* margin-top:-.8rem;
-    margin-left:3rem; */
-   
-}
 
 
-a.pull-request{
+a#pull-request{
     color:#ff79c6;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -533,7 +495,7 @@ a.pull-request{
     display:inline-block;
 }
 
-a.pull-request:hover{
+a#pull-request:hover{
     text-decoration: none;
     color:#50fa7b;
     transition: 0.3s;
@@ -590,16 +552,35 @@ a.pull-request:hover{
     width:27px;
    
 }
-.carets{
-    
-    color:white;
-    
+.fa-caret-up{
+    color:#e6db74;
+   
 }
+
+
 .caret-div{
     display: flex;
-    /* justify-content: center; */
-    justify-items: space-between;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    
+    
 }
+.one{
+   margin-left:4rem;
+    margin-top:-1rem;
+    color:#ff79c6;;
+
+}
+
+
+.two{
+    margin-right:7rem;
+    margin-top:-1rem;
+}
+
 
 /* space under clock */
 #date{

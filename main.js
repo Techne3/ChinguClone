@@ -36,4 +36,42 @@ textDelete.addEventListener('click', function(){
 	textDelete.style.display = 'none';
 });
 
-// github pull request 
+
+
+// github pull request Issue caret 
+document.getElementById("pull-request").onclick = function() {
+	document.getElementById("twoUp").style.display="none";
+	document.getElementById("oneUp").style.display="block";
+}
+
+
+
+document.getElementById("item-issues").onclick=function() {
+	document.getElementById("oneUp").style.display="none";
+	document.getElementById("twoUp").style.display="block";
+}
+
+
+function myFunction() {
+	var x = document.getElementById("github-issues");
+	if (x.innerHTML === "GITHUB ISSUES HISTORY") {
+	  x.innerHTML = "GITLAB ISSUES HISTORY";
+	} else {
+	  x.innerHTML = "GITHUB ISSUES HISTORY";
+	}
+  }
+
+// switch to gitLab
+// document.getElementById("switch").onclick=function() {
+// 	document.getElementById("github-issues").innerHTML="GITLAB ISSUES HISTORY";
+// }
+
+
+function myFunction() {
+	var x = document.getElementById("github-issues");
+	if (x.innerHTML === "GITHUB ISSUES HISTORY") {
+	  x.innerHTML = "GITLAB ISSUES HISTORY";
+	} else {
+	  x.innerHTML = "GITHUB ISSUES HISTORY";
+	}
+  }
